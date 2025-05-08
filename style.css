@@ -1,0 +1,91 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Global Styling */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation Bar */
+nav {
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* Article Section as a Card */
+article {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #222;
+  line-height: 1.7;
+}
+
+/* Image Styling */
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 25px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Attribution Styling */
+.attribution {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* Stylish Button */
+.member-button {
+  display: block;
+  margin: 30px auto;
+  padding: 14px 28px;
+  font-size: 16px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.members {
+  font-weight: bold;
+}
